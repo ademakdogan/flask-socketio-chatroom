@@ -7,10 +7,7 @@ Created on Sun Oct 11 18:34:12 2020
 """
 
 from pymongo import MongoClient
-import pymongo
-from werkzeug.security import generate_password_hash
 from datetime import datetime
-from bson.objectid import ObjectId
 import random
 import json
 
