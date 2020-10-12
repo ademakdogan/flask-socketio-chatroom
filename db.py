@@ -57,31 +57,7 @@ def all_rooms():
 #     
 #     all_rooms()
 # =============================================================================
-    
-# =============================================================================
-# def rooms_member(room_id, user_id, start_date, end_date):
-#     new_id = last_id(room_members_collection, "member_id")
-# =============================================================================
-    
-    
-    
-#----------
-# =============================================================================
-# import json
-# import random
-# roo
-# newvalues = { "$set": { "cap": 1 } }
-# rooms_collection.update({"room_id": 5}, newvalues)
-# 
-# aa = rooms_collection.find({"cap": 0}).sort("room_id", -1)
-# deneme = []
-# for a in aa:
-#     deneme.append(a)
-#     print(a)
-# deneme[3]["room_id"]
-# 
-# random.randint(0,1)
-# =============================================================================
+
 
 def get_room_name():
     rooms = []
